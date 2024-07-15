@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import profile from '../assets/profilepic.png';
+import profile from '../../public/assets/profilepic.png';
 import { useSpring, animated, config } from 'react-spring';
 const About = () => {
 
