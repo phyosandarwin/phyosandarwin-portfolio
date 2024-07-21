@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import profile from '/images/profilepic.png';
 import { useSpring, animated, config } from 'react-spring';
 const About = () => {
@@ -22,7 +22,7 @@ const About = () => {
           </p>
           <br />
           <p className="text-md text-gray-600 dark:text-gray-300">
-            When I'm not coding, I enjoy singing and dancing freestyle 💗
+            When not coding, I enjoy singing and dancing freestyle 💗
           </p>
         </div>
         <animated.img

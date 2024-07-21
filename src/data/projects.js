@@ -12,16 +12,16 @@ const projects = [
       id: 2,
       title: "EcoSpeaks.ai",
       imgURL: "/images/ecospeaks.png",
-      details: "An environmental assistant application with an environmental emissions tool, also generates quizzes from the environmental news on the chatbot.",
-      stack:["Streamlit", "Azure OpenAI", "NewsAPI"],
-      github: "https://github.com/phyosandarwin/ecospeaks",
+      details: "An environmental assistant application with an environmental emissions tool, also generates quizzes from the environmental news on the chatbot. Users can also interact with a RAG-based chat feature that takes in environmental related text-documents.",
+      stack:["Streamlit", "Gemini", "NewsAPI", "Langchain"],
+      github: "https://github.com/phyosandarwin/ecospeaks-ai",
       link: "https://ecospeaks-ai.streamlit.app/"
     },
     {
       id: 3,
       title: "NewsQuest",
       imgURL: "/images/newsquest.png",
-      details: "A news learning platform which aggregates real-time news and generates quizzes on the selected news article.",
+      details: "A news learning platform which aggregates real-time news and generates questions on the selected news article. ",
       stack: ["Streamlit", "Gemini", "NewsAPI"],
       github: "https://github.com/phyosandarwin/news-quest",
       link: "https://newsquest.streamlit.app/"
@@ -30,10 +30,10 @@ const projects = [
       id: 4,
       title: "Cinematic Seeker",
       imgURL: "/images/movierecommender.png",
-      details: "Movies are recommended to users using content-based and collaborative filtering techniques. Users can communicate their preferences with RAG chatbot as well.",
+      details: "Movies are recommended to users using content-based filtering techniques.",
       stack:["Streamlit", "Pandas", "NLTK"],
-      github: "https://github.com/phyosandarwin/movie-recommender-chatbot",
-      link: "https://movie-recommender-chatbot.streamlit.app/"
+      github: "https://github.com/phyosandarwin/movie-recommendation-engine",
+      link: "https://cinematic-seeker.streamlit.app/"
     }, 
     {
       id: 5,

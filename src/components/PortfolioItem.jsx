@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { useSpring, animated } from "react-spring";
 
@@ -45,13 +45,14 @@ const PortfolioItem = ({ project }) => {
                     className="mr-3 hover:text-yellow-400 dark:hover:text-white duration-300">
                       <FaGithub />
                     </a>
-                    
+                    {project.link && (
                     <a href={project.link}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-lg hover:text-yellow-400 dark:hover:text-white duration-300">
                       <FaExternalLinkAlt />
                     </a>
+                    )}
                 </div>
             </div>
         </div>

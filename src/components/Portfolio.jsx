@@ -1,4 +1,3 @@
-import React from "react";
 import PortfolioItem from "./PortfolioItem.jsx";
 import projects from "../data/projects"; // Assuming projects.js is correctly imported
 
